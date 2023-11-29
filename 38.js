@@ -4,4 +4,4 @@ var scope = "local";
 const inner = () => {return scope;}
 return inner;
 }
-getScope()();
+console.log(getScope()());
